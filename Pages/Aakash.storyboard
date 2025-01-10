@@ -15,8 +15,36 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vAl-T7-s6a">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MV5BOTU1ZjNlNjYtYjg3NS00NGQyLWI1YTctODQ0NzYwZjRjN2I1XkEyXkFqcGc@._V1_" translatesAutoresizingMaskIntoConstraints="NO" id="xaw-sW-ef7">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="253"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name: Don't you Hold me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRP-F5-7JZ">
+                                        <rect key="frame" x="77" y="253" width="239" height="253"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: Alan Walker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ew-Ge-ylj">
+                                        <rect key="frame" x="137.66666666666666" y="506" width="118" height="253"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="vAl-T7-s6a" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="3bD-R7-MS8"/>
+                            <constraint firstItem="vAl-T7-s6a" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="RCO-5M-sXk"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="vAl-T7-s6a" secondAttribute="bottom" id="SZq-6V-ifp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="vAl-T7-s6a" secondAttribute="trailing" id="pAx-Ad-ssH"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="nvV-95-rxH"/>
                 </viewController>
@@ -26,8 +54,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="MV5BOTU1ZjNlNjYtYjg3NS00NGQyLWI1YTctODQ0NzYwZjRjN2I1XkEyXkFqcGc@._V1_" width="800" height="1000"/>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
